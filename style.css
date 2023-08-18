@@ -20,7 +20,7 @@ body {
   font-family: "Roboto Mono", sans-serif;
 }
 
-.container-fluid .row #col1 .button {
+.container-fluid .row #col1 a {
   position: absolute;
   padding: 15px;
   border: solid 1px;
@@ -31,7 +31,7 @@ body {
   border-radius: 10px;
 }
 
-.container-fluid .row #col1 .button:hover {
+.container-fluid .row #col1 a:hover {
   background-color: #ffdbda;
   color: black;
   font-weight: bold;
@@ -197,7 +197,7 @@ html {
   color: #000;
 }
 
-@media only screen and (max-width: 989px) {
+@media screen and (max-width: 998px) {
   #home #col1 h3,
   #home #col1 h1 {
     text-align: center;
