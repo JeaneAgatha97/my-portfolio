@@ -95,6 +95,11 @@ h5 {
   background-color: pink;
 }
 
+#skills-img img{
+  max-width: 100%;
+  height: auto;
+}
+
 #skills #text {
   padding: 20px 500px;
   margin: 30px 100px 10px -2px;
