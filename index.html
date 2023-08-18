@@ -51,12 +51,59 @@
     <div id="root">
       <!--Navigation bar-->
       <nav
+        class="navbar navbar-expand-lg border-bottom border-body sticky-top"
+        data-bs-theme="dark"
+        style="background-color: #000000"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#home"
+            ><img
+              src="./img/JAD Logo White.png"
+              alt="Logo"
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
+            JEANE AGATHA DOCTOR</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!--Nav Menu-->
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-underline">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#skills">EXPERIENCE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#project">PROJECT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#contact">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--End nav bar-->
+      <!-- <nav
         class="navbar navbar-expand-lg navbar-dark sticky-top"
         style="background-color: #000000"
         id="my-navbar"
       >
         <div class="container-fluid">
-          <!--Logo & Name-->
+          
           <a class="navbar-brand" href="#home">
             <img
               src="./img/JAD Logo White.png"
@@ -67,7 +114,7 @@
             />
             JEANE AGATHA DOCTOR
           </a>
-          <!--Nav Menu-->
+          
           <ul class="nav justify-content-end nav-underline">
             <li class="nav-item">
               <a class="nav-link text-white" href="#about">ABOUT</a>
@@ -83,7 +130,7 @@
             </li>
           </ul>
         </div>
-      </nav>
+      </nav> -->
       <!--This is for the Scrollspy-->
       <div
         data-bs-spy="scroll"
