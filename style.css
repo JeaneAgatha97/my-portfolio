@@ -8,20 +8,21 @@ body {
 }
 
 .container-fluid .row #col2 {
-  padding: 280px 180px 280px 0;
+  padding: 250px 180px 280px 0;
+  margin-left: -80px;
 }
 
 .container-fluid .row #col1 h3 {
   color: white;
-  font-size: 20px;
+  font-size: 28px;
   text-align: left;
   font-family: "Courier New", monospace;
-  padding: 10px 0;
+  padding: 10px;
 }
 
 .container-fluid .row #col1 h1 {
   color: white;
-  font-size: 30px;
+  font-size: 45px;
   text-align: left;
   font-family: "Roboto Mono", sans-serif;
 }
@@ -44,10 +45,10 @@ body {
   font-weight: bold;
 }
 
-.container-fluid .row #col2 img {
+/* .container-fluid .row #col2 img {
   margin-top: -60px;
   width: 380px;
-}
+} */
 
 #home #col1 a {
   text-decoration: none;
